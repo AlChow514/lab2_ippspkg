@@ -9,7 +9,7 @@ requires ipps_data to be loaded}
 stat_avg_pay(x)
 }
 \arguments{
-\item{x}{a measure statistic such as mean, meadian, sd etc.}
+\item{x}{a measure statistic such as mean, median, sd etc.}
 }
 \value{
 a measure statistic
