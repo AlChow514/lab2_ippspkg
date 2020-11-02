@@ -1,0 +1,17 @@
+---
+title: "test"
+author: "Albert Chow"
+date: "11/1/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+ipps_data <- read_csv("./data/Inpatient_Prospective_Payment_System__IPPS__Provider_Summary_for_the_Top_100_Diagnosis-Related_Groups__DRG__-_FY2011.csv")
+
+source("./R/avg_pay_stat.R")
+source("./R/avg_pay_plot.R")
+stat_avg_pay(mean)
+avg_pay_plt(039)
+```
+

@@ -1,0 +1,11 @@
+Package: ippspkg
+Type: Package
+Title: ipps data functions
+Version: 0.1.0
+Author: Albert Chow
+Maintainer: Albert Chow <alc9177@med.cornell.edu>
+Description: Functions that produces a boxplot or measure statistic over average medicare payments
+License: freeware
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
